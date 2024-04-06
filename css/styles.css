@@ -1,0 +1,40 @@
+/* @font-face {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-display: swap;
+    src: url();
+} */
+
+:root {
+    /* Colors */
+    --navy_blue: 46, 47, 66;
+    --slate: 67, 68, 85;
+    --white: 255, 255, 255;
+    --iris: 77, 90, 229;
+    --cloud: 244, 244, 253;
+    --ocean: 64, 75, 191;
+}
+
+/* Base styles */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: rgba(var(--navy_blue), 1);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
