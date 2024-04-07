@@ -58,6 +58,8 @@ button {
     overflow: hidden;
 }
 
+/* #region Header */
+/* Logo */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -72,6 +74,11 @@ button {
     color: rgba(var(--iris), 1);
 }
 
+.logo-footer {
+    color:rgba(var(--cloud), 1);
+}
+
+/* Menu */
 .header-menu-link {
     font-weight: 500;
     color:rgba(var(--navy_blue), 1);
@@ -90,7 +97,10 @@ button {
 .header-contacts-link:focus {
     color:rgba(var(--ocean), 1);
 }
+/* #endregion */
 
+/* Main */
+/* #region Hero */
 .hero {
     background: rgba(var(--navy_blue), 1);
 }
@@ -115,3 +125,61 @@ button {
 .hero-button:focus {
     background: rgba(var(--ocean), 1);
 }
+/* #endregion */
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.card-paragraph {
+    color: rgba(var(--slate), 1)
+}
+
+/* #region Section 1 - Advanteges */
+.advantages-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.advantages-paragraph {
+    color: rgba(var(--slate), 1);
+}
+/* #endregion */
+
+/* #region Section 2 - What are we doing */
+
+/* #endregion */
+
+/* #region Section 3 - Our team */
+.section-team {
+    background: rgba(var(--cloud), 1);
+}
+.team-name-header {
+    text-align: center;
+}
+
+.team-position-paragraph{
+    text-align: center;
+}
+/* #endregion */
+
+/* #region Footer */
+.footer {
+    background: rgba(var(--navy_blue), 1);
+}
+.footer-paragraph {
+    color: rgba(var(--cloud), 1);
+}
+/* #endregion */
