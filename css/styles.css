@@ -25,6 +25,25 @@ body {
     color: rgba(var(--navy_blue), 1);
 }
 
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+address {
+    font-style: normal;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+    border: 0;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -37,4 +56,62 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: rgba(var(--navy_blue), 1);
+}
+
+.logo-accent {
+    color: rgba(var(--iris), 1);
+}
+
+.header-menu-link {
+    font-weight: 500;
+    color:rgba(var(--navy_blue), 1);
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: rgba(var(--ocean), 1);
+}
+
+.header-contacts-link {
+    color: rgba(var(--slate), 1);
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color:rgba(var(--ocean), 1);
+}
+
+.hero {
+    background: rgba(var(--navy_blue), 1);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    text-align: center;
+    color: rgba(var(--white), 1);
+}
+
+.hero-button {
+    background: rgba(var(--iris), 1);
+    color: rgba(var(--white), 1);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background: rgba(var(--ocean), 1);
 }
