@@ -140,6 +140,7 @@ button {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: rgba(var(--navy_blue), 1);
 }
 
 .card-paragraph {
@@ -165,6 +166,9 @@ button {
 /* #region Section 3 - Our team */
 .section-team {
     background: rgba(var(--cloud), 1);
+}
+.team-item {
+    background: rgba(var(--white), 1);
 }
 .team-name-header {
     text-align: center;
